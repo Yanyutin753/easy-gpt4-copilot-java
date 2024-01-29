@@ -20,5 +20,5 @@ services:
     command:  
       - --server.port=8081 
       #自定义前缀
-      - --server.servlet.context-path=/tokensTool 
+      - --server.servlet.context-path=/
 
