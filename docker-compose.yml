@@ -18,6 +18,7 @@ services:
     pid: host  
     privileged: true  
     command:  
+      - --log=info
       - --server.port=8081 
       #自定义前缀
       - --server.servlet.context-path=/
